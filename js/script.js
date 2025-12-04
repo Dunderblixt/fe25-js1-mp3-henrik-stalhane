@@ -47,6 +47,7 @@ document.getElementById("format").addEventListener("submit", function(event) {
     event.preventDefault();
     document.getElementById("quizContainer").style.display = "block";
     document.getElementById("finishQuiz").style.display = "block";  
+    document.getElementById("results").style.display = "none";
     quizFormat.style.display = "none";
     finishBtn.style.display = "block";
     fetchQuizData();
@@ -73,5 +74,6 @@ document.getElementById("finishQuiz").addEventListener("click", function(event) 
                 }
             });  
         });
+        document.getElementById("results").style.display = "block";
         document.getElementById("results").innerHTML = `Your score: ${score} out of ${questions.length}. correct answers are shown in bold. Choose new format and click the button to start new quiz.`;
  });
