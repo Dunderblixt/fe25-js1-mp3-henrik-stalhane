@@ -1,0 +1,21 @@
+.questions{
+    margin-top:20px;
+}
+#quizContainer{
+    border:solid black 2px;
+    display:none;
+    margin-top:20px;
+}
+#submitQuiz{
+    display:none;
+    margin-top:20px;
+}
+#results{
+    margin-top:20px;
+    font-weight:bold;
+}
+#finishQuiz{
+    display:none;
+    margin-top:20px;
+}
+ 
